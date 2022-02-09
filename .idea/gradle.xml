@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Cinema Room REST Service/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/test-results" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Retrieving specific task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/classes/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/test-results" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Return big JSON/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/classes/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/test-results" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Two endpoints/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Getting data from REST/Welcome" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
