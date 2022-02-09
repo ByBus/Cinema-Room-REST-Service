@@ -21,4 +21,17 @@ public class Ticket {
     public Seat getSeat() {
         return seat;
     }
+
+    public NoToken withoutToken() {
+        return new NoToken(this);
+    }
+
+    private static class NoToken {
+        @JsonProperty("returned_ticket")
+        private final Seat seat;
+
+        private NoToken(Ticket ticket) {
+            seat = ticket.seat;
+        }
+    }
 }

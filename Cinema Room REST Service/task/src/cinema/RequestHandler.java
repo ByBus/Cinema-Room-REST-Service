@@ -37,7 +37,7 @@ public class RequestHandler {
         String token = request.get("token");
         try {
             Ticket returnedTicket = ticketManager.removeTicketWithToken(token);
-            return new ResponseEntity<>(Map.of("returned_ticket", returnedTicket.getSeat()), HttpStatus.OK);
+            return new ResponseEntity<>(returnedTicket.withoutToken(), HttpStatus.OK);
         } catch (IllegalArgumentException e) {
             return new ResponseEntity<>(new Error(e.getMessage()), HttpStatus.BAD_REQUEST);
         }
