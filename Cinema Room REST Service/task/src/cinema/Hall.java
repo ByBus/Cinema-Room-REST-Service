@@ -31,18 +31,6 @@ public class Hall {
         return Collections.unmodifiableList(seats);
     }
 
-    public int getTotalRows() {
-        return totalRows;
-    }
-
-    public int getTotalColumns() {
-        return totalColumns;
-    }
-
-    public List<Seat> getAvailableSeats() {
-        return availableSeats;
-    }
-
     public Seat getSeat(int row, int column) {
         return availableSeats.stream()
                 .filter(s -> s.getRow() == row && s.getColumn() == column)

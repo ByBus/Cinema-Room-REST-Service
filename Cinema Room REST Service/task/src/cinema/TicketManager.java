@@ -1,6 +1,8 @@
 package cinema;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import utils.Checker;
 
@@ -39,6 +41,8 @@ public class TicketManager {
                 .sum();
     }
 
+    @Getter
+    @AllArgsConstructor
     static class Statistics {
         @JsonProperty("current_income")
         private final int income;
@@ -46,23 +50,5 @@ public class TicketManager {
         private final int availableSeats;
         @JsonProperty("number_of_purchased_tickets")
         private final int purchasedTickets;
-
-        public Statistics(int income, int availableSeats, int purchasedTickets) {
-            this.income = income;
-            this.availableSeats = availableSeats;
-            this.purchasedTickets = purchasedTickets;
-        }
-
-        public int getIncome() {
-            return income;
-        }
-
-        public int getAvailableSeats() {
-            return availableSeats;
-        }
-
-        public int getPurchasedTickets() {
-            return purchasedTickets;
-        }
     }
 }

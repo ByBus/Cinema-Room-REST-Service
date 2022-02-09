@@ -1,9 +1,11 @@
 package cinema;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
 
 import java.util.UUID;
 
+@Getter
 public class Ticket {
     private final String token;
     @JsonProperty("ticket")
@@ -12,14 +14,6 @@ public class Ticket {
     public Ticket(Seat seat) {
         this.token = UUID.randomUUID().toString();
         this.seat = seat;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public Seat getSeat() {
-        return seat;
     }
 
     public NoToken withoutToken() {
